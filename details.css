@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+  color: white;
+  font-family: "Questrial", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*header*/
+header {
+  height: 60px;
+  background: #333333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#logo img {
+  width: 60px;
+  padding: 5px;
+}
+#header-h1 {
+  color: white;
+}
+.container {
+  width: 100%;
+  float: left;
+}
+/* menu*/
+#menu {
+  width: 80%;
+  font-size: 20px;
+  align-content: flex-end;
+  float: right;
+  list-style: none;
+}
+#menu li {
+  display: inline;
+  float: right;
+  padding-right: 20px;
+}
+
+#menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+#menu li:hover a,
+#menu li.active a {
+  border-radius: 7px 7px 0px 0px;
+  color: white;
+  cursor: auto;
+}
+
+/* Design for card*/
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.box img {
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+}
+.box p,
+.box h1 {
+  padding-left: 20px;
+}
+
+.box {
+  margin: 30px;
+  color: black;
+  display: flex;
+  height: 500px;
+  background: white;
+  border-radius: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 20px 20px 25px black;
+}
+.box .content {
+  height: 50%;
+}
+.box .content p {
+  padding: 20px;
+  align-content: center;
+  text-align: center;
+}
+/*footer*/
+footer {
+  background: #333333;
+  bottom: 0;
+}
+#copyright {
+  border-top: 20px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+#copyright p {
+  display: inline;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: white;
+}
+
+#copyright a {
+  text-decoration: none;
+  color: white;
+}
+
+/*footer icon*/
+ul.contact {
+  display: inline;
+  list-style: none;
+}
+
+ul.contact li {
+  display: inline;
+  font-size: 1em;
+}
+
+ul.contact li span {
+  margin: 20px;
+}
+
+ul.contact li a {
+  color: white;
+}
+
+ul.contact li a:before {
+  display: inline;
+  background: #4c93b9;
+  line-height: 40px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
